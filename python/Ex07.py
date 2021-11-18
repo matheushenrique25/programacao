@@ -1,0 +1,10 @@
+a = float(input("Digite o valor do primeiro produto: "))
+b = float(input("Digite o valor do segundo produto: "))
+c = float(input("Digite o valor do terceiro produto: "))
+d = float(input("Digite o valor do quarto produto: "))
+e = float(input("Digite o valor do quinto produto: "))
+v =( a + b + c + d + e)
+print(f"valor total dos produtos e igual: {v:.2f} ")
+p = float(input("Digite o valor pago: "))
+t=p-v
+print(f"valor de troco e igual: {t:.2f} ")
